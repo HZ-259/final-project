@@ -15,9 +15,9 @@
       align-items:center;
       color:#fff;
   }
-
+  
   .container{
-  max-width: auto;
+  max-width: width 960px;
   padding-left: 1rem;
   padding-right: 1rem;
   margin:auto;
