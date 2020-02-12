@@ -9,10 +9,18 @@
     <title>Find events near you!</title>
 </head>
 <body>
-<h1>WHO'S READY FOR A CONCERT?</h1> 
+<header class="v-header container">
+    <div class="fullscreen-video-wrap">
+          <video autoplay muted loop id="myVideo">
+            <Source src=Video/myVideo.mp4 type="video/mp4">
+          </video>
+        </div>
+        <div class="header-overlay"></div>
 
-<div id="wrapper">
-<h2>enter your zip-code and let us find your next concert!</h2>
+<div class="header-content">
+<h1 style="text-align: center">WHO'S READY FOR A CONCERT?</h1> 
+
+<h4 style="text-align: center">enter your zip-code and let us find your next concert!</h4>
 <br>
 <form>
           <input type="zipcode" class="form-control" id="inputzipcode" placeholder="enter your zip-code to search events">
