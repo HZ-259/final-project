@@ -19,9 +19,9 @@
 <div class="header-content">
 <h1 style="text-align: center">WHO'S READY FOR A CONCERT?</h1> 
 
-<h4 style="text-align: center">let us help you find your next concert!</h4>
+<h4 style="text-align: center">Select your state and let us find you upcoming concerts!</h4>
 <br>
-<form>
+<form> action="/api/products" method="POST">
   <select name="state" size="1">
     <option value="AL">Alabama</option>
     <option value="AK">Alaska</option>
@@ -75,8 +75,7 @@
     <option value="WI">Wisconsin</option>
     <option value="WY">Wyoming</option>
   </select>
-
-  <input type="submit" value="Submit">
+  <button>Submit</button>
 </form>
 <br>
 <p style="text-align: right"> powered by Ticketmaster </p>
